@@ -8,7 +8,7 @@ function compare(a,b) {
 
 
 function whytho(event){  
- 	event.preventDefault();
+ 	// event.preventDefault();
 	var formData = new FormData($('#uploadForm')[0]);
 	        var obj =[]; 
 	$.ajax({
